@@ -1,0 +1,18 @@
+#redes{
+	display: flex;
+	
+	justify-content: space-around;
+	top: -25px;
+	left: -35px;
+}
+
+#redes a {
+	text-decoration: none;
+	margin-right: 10px;
+
+}
+#redes a img{
+	width: 30px;
+	height: 30px;
+	border: none;
+}
