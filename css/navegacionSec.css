@@ -2,7 +2,7 @@
 	#navegacionSec{
 		position: fixed;
 		z-index: 50;
-		width:90%;
+		width:100%;
 		height: auto;
 		padding: 5px 10px;
 		background-color: black;
