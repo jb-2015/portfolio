@@ -30,9 +30,9 @@
         background-attachment: fixed;
     }
     .me{
-        display:  flex;
-        flex-direction: row;
-        justify-content: space-around;
+        display:  block;
+        left: -13px;
+       
     }
     .seccion{
         display: block;
@@ -40,10 +40,18 @@
         left: -20px;
         
     }
+    .me img{
+        left: 10%;
+        width: 200px;
+        height: 200px;
+    }
     .me img,.descripcion{
         display: block;
 
        
+    }
+    .me .descripcion h1,p{
+        text-align: center;
     }
     .seccion hr{
         display: block;
@@ -72,7 +80,9 @@
 
 @media (max-width: 400px) {
    
-
+    .me{
+        left: -50px;       
+    }
 }
 
 @media (max-width: 360px) {
