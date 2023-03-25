@@ -1,0 +1,10 @@
+#menuFlotante{
+	width: 100%;
+	position: fixed;
+	top: 20px;
+	z-index: 100;
+}
+h2{
+	font-family: Mistral;
+	font-size: 5rem;
+}

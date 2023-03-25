@@ -1,0 +1,84 @@
+@media (max-width: 1400px) {
+   
+}
+
+@media (max-width: 1120px) {
+
+}
+
+@media (max-width: 992px) {
+  
+}
+
+@media (max-width: 768px) {
+
+   
+}
+
+@media (max-width: 576px) {
+  
+}
+
+/*CELULARES*/
+@media (max-width: 480px) {
+    #header{
+        display: none;
+    }
+    body{
+        background-image: url("../img/fondoMovil2.jpg") !important;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .me{
+        display:  flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .seccion{
+        display: block;
+        width: 100%;
+        left: -20px;
+        
+    }
+    .me img,.descripcion{
+        display: block;
+
+       
+    }
+    .seccion hr{
+        display: block;
+    }
+    #tituloFormacion{
+        width: 100%;
+    }
+    #educacion,#proyectos{
+        display: block;
+        padding: 150px 100px;
+    }
+    .edu{
+        display: block;
+        width: 400px;
+    }
+    .edu img,div{
+        display: block;
+    }
+    #itemEnMuestra,#itemEnProceso{
+        display: block;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+   
+
+}
+
+@media (max-width: 360px) {
+  
+}
+
+@media (min-width: 1200px) {
+   
+}
