@@ -1,0 +1,20 @@
+@media (max-width: 480px){
+	#navegacionSec{
+		position: fixed;
+		z-index: 50;
+		width:85%;
+		height: auto;
+		padding: 5px 10px;
+		background-color: black;
+		top: -10px;
+		left: -10px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	#navegacionSec a img{
+		width: 75px;
+		height: 75px;
+	}
+
+}
