@@ -3,122 +3,83 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Juan Becerra</title>
-	<link rel="stylesheet" href="css/Grid.css">
-	<link rel="stylesheet" href="css/secciones.css">
-	<link rel="stylesheet" href="css/responsive.css">
-	<link rel="stylesheet" href="css/redes.css">
-	<link rel="stylesheet" href="css/navegacionSec.css">
+	<link rel="stylesheet" href="css/general.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/grillas.css">
+	<title>Portafolio</title>
 </head>
 <body>
-	<div id="navegacionSec">
-		<a href="#top"><img src="img/inicio.png" alt=""></a>
-		<a href="#educacion"><img src="img/educacion.png" alt=""></a>
-		<a href="#proyectos"><img src="img/portfolio.png" alt=""></a>
-	</div>
-	<header class="h600 top-100" id="top">
-		<nav id="header">
-			<ul id=opciones>
-				<li></li>
-				<li><a href="#top">Inicio</a></li>
-				<li><a href="#educacion">Educacion</a></li>
-				<li><a href="#proyectos">Portafolio</a></li>
+	<header>
+		<nav class="menuFlotante">
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Formacion</a></li>
+				<li><a href="#">Proyectos</a></li>
+				<li><a href="#">Skills</a></li>
 			</ul>
 		</nav>
-		<div class="seccion   principal top-100" id="head">
-			<div class="me ">
-				<img src="img/perfil.jpg" alt="Foto Perfil">
-				<div class="descripcion ">
-					<h1 class="orange">Juan Becerra</h1>
-					<p>Estudiante <b>Tecnicatura en Desarrollo de software</b></p>
-					<div id="redes">
-						<a href="#"><img src="img/linkedin.png" alt=""></a>
-						<a href="#"><img src="img/git.png" alt=""></a>
-						<a href="#"><img src="img/facebook.png" alt=""></a>
-						
+	</header>
+	<main>
+		<section class="inicio">
+			<div class="conteinerRow">
+				<div class="row">
+					<div class="c1 img"><img src="img/perfil.jpg" alt=""></div>
+					<div class="c3 miPresentacion">
+						<div class="datos">
+							<h1 class="tituloPresentacion">Juan M. Becerra</h1>
+							<h2 class="tituloPresentacion">Estudiante : Tecnicatura en Desarrollo de software.</h2>
+							<h2 class="redes">
+								<span class="iconRedes"><a href="https://www.linkedin.com/in/juan-becerra-a1b01467/"><img src="img/linkedin.png" alt="" target="_blank"></a></span>
+								<span class="iconRedes"><a href="https://github.com/jb-2015"><img src="img/git.png" alt="" target="_blank"></a></span>
+								<span class="iconRedes"><a href="#"><img src="img/facebook.png" alt="" target="_blank"></a></span>
+							</h2>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</section>
+
+		<section class="formacion">
+			<div class="conteinerRow">
+				<div class="row tituloFormacion">
+					<h1>Formación</h1>
+					
+				</div>
+				
+				<div class="row">
+					<div class="c4">
+						<div class="itemAcademico">
+							<div class="imgContentForm"><img src="img/ulp.jpg" alt=""></div>
+							<h2>Desarrollo de Software</h2>
+							<p>En curso</p>
+						</div>
+						<div class="itemAcademico">
+							<div class="imgContentForm"><img src="img/codoAcodo.png" alt=""></div>
+							<h2>FullStack Python</h2>
+							<p>En curso</p>
+						</div>
+						<div class="itemAcademico">
+							<div class="imgContentForm"><img src="img/argProg.png" alt=""></div>
+							<h2>Desarrollo web</h2>
+							<p>En curso</p>
+						</div>
+						<div class="itemAcademico">
+							<div class="imgContentForm"><img src="img/untref.png" alt=""></div>
+							<h2>Diplomatura</h2>
+							<p>gestion y transformacion de negocios al mundo digital</p>
+						</div>
+						<div class="itemAcademico">
+							<div class="imgContentForm"><img src="img/epet.jpg" alt=""></div>
+							<h2>Tecnico Electromecanico</h2>
+							<p>Finalizado</p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+			
+		</section>
 		
-	</header>
-	<section class="seccion h600 bg-black" id="educacion">
-		<h1 class="orange" id="tituloFormacion">FORMACION IT</h1>
-		<hr>
-		<div class="col-8">
-			<h2 class="orange">En Curso</h2>
-			<p class="white">Mi formacion en la programacion.</p>
-			<div class="col-2 edu">
-				<img src="img/ulp.jpg" alt="Universidad de la Punta">
-				<div>
-					<h2 class="white">Tecnico Desarrollador de Software</h2>
-					<p class="white">Universidad de La Punta (ULP)</p>
-					
-				</div>
-			</div>
-			<div class="col-2 edu">
-				<img src="img/codoAcodo.png" alt="Universidad de la Punta">
-				<div><h2 class="white">Python</h2></div>
-			</div>
-			<div class="col-2 edu">
-				<img src="img/argProg.png" alt="Universidad de la Punta">
-				<div>
-					<h2 class="white">Programacion Web</h2>
-					<p class="white">Argentina programa</p>
-				</div>
-			</div>
-		</div>
-
-	</section>
-	<section class="seccion h600 bg-black t" id="proyectos">
-		<h1 class="orange">PROYECTOS</h1>
-		<hr>
-		<div class="col-4" id="itemEnMuestra">
-			<h2 class="orange">En muestra</h2>
-			<p class="white">En este apartado se encuentran los proyectos que estan disponibles para visualizar</p>
-			<div class="col-2 edu">
-				<img src="img/hope.jpg" alt="Cocteleria Hope">
-				<div>
-					<a href="cocteleria/cocte.html" target="_blank"><h2 class="white">Hope's</h2></a>
-					<p class="white">Sitio web</p>
-				</div>
-			</div>
-			
-			
-		</div>
-		<div class="col-4" id="itemEnProceso">
-			<h2 class="orange">En proceso</h2>
-			<p class="white">Aqui se ven los proyectos que estan en proceso de desarrollo</p>
-			<div class="col-2 edu">
-				<img src="img/java.png" alt="java">
-				<div>
-					<a href="#" target=""><h2 class="white">Registro Ventas</h2></a>
-					<p class="white">Aplicacion de Escritorio</p>
-				</div>
-			</div>
-			<div class="col-2 edu">
-				<img src="img/perrito2.jpg" alt="tips-mascotas">
-				<div>
-					<a href="#" target=""><h2 class="white">Tips-Mascotas</h2></a>
-					<p class="white">Blog con consejos para el cuidado de tus mascotas</p>
-				</div>
-			</div>
-			<div class="col-2 edu">
-				<img src="img/webp.jpg" alt="noticias">
-				<div>
-					<a href="#" target=""><h2 class="white">Pagina de Noticias</h2></a>
-					<p class="white">Proyecto de Clases</p>
-				</div>
-			</div>
-			<div class="col-2 edu">
-				<img src="img/webp.jpg" alt="Cocteleria Hope">
-				<div>
-					<a href="#" target=""><h2 class="white">Tutoriales</h2></a>
-					<p class="white">tutoriales de programacion</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<script src="js/fondo.js"></script>
+	</main>
+	<footer></footer>
 </body>
 </html>

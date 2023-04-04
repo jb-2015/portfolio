@@ -1,0 +1,190 @@
+:root{
+	--fuentePrincipal : Sans-Serif;
+	--textoSecundario : gray;
+	--anchoIconRedes : 34px;
+}
+body{
+	margin:0;
+	padding: 0;
+	background-image: url(../img/fondo3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+*{
+	color: white;
+	font-family: sans-serif;
+
+}
+.inicio{
+	background-color: rgba(0,0,0,0.7);
+	display: flex;
+	flex-direction: column;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	min-height: 500px;
+	margin-top: 150px;
+	justify-content: space-around;
+}
+
+.img{
+	
+	overflow: hidden;
+	margin-top: auto;
+	margin-bottom: auto;
+
+}
+.img img{
+	width: 100%;
+	border-radius: 50%;
+	border: 4px solid orange;
+
+}
+.miPresentacion{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 5%;
+}
+.miPresentacion h1{
+	font-family: var(--fuentePrincipal);
+	font-size: 38px;
+}
+.datos h2{
+	font-family: var(--fuentePrincipal);
+	color : var(--textoSecundario);
+}
+
+.miPresentacion .datos .tituloPresentacion{
+	margin-top: -20px;
+	padding:0;
+	
+}
+
+.redes{
+	margin-top: 50px;
+}
+.iconRedes{
+	margin-right: 15px;
+	overflow-x: hidden;
+	width: var(--anchoIconRedes)
+
+}
+.iconRedes a{
+
+	text-decoration: none;
+	align-content: center;
+	font-size: 16px;
+}
+.iconRedes a img{
+	width:var(--anchoIconRedes);
+	margin-right: 5px;
+}
+
+
+/* SECCION FORMACION */
+
+.formacion{
+	background-color: black;
+	min-height: 500px;
+}
+
+.tituloFormacion{
+	justify-content: center !important;
+	
+}
+.itemAcademico{
+	width: 280px;
+	border: 1px solid gray;
+	overflow: hidden;
+	border-radius: 10px;
+	padding: 5px;
+	position: relative;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	min-height: 370px;
+}
+.itemAcademico img{
+	width: 100%;
+}
+.itemAcademico > p{
+	color: gray;
+}
+
+.imgContentForm{
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-bottom: 1px solid gray;
+}
+
+
+
+
+
+/* MEDIA QUERY */
+@media (max-width: 1400px) and (min-width: 1121px){
+   
+}
+
+@media (max-width: 1120px) and (min-width: 993px) {
+
+}
+
+@media (max-width: 992px) and (min-width: 769px){
+	
+  
+}
+
+@media (max-width: 768px) and (min-width: 577px){
+	.img img{
+		width: 50%;
+		margin-left: 25%;
+	}
+	.inicio{
+		min-height:1000px;
+	}
+	.datos h1,h2{
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 576px) and (min-width: 481px){
+  
+}
+
+/*CELULARES*/
+@media (max-width: 480px) and (min-width: 401px){
+   	.img img{
+		width: 60%;
+		margin-left: 20%;
+	}
+	.inicio{
+		min-height: 600px;
+	}
+	.datos{
+		margin-top: 20px;
+	}
+	.datos h1,h2{
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 400px) and (min-width: 361px) {
+	
+}
+
+@media (max-width: 360px) {
+  
+}
+
+@media (min-width: 1200px) {
+   
+}

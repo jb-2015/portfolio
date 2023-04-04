@@ -1,0 +1,32 @@
+:root{
+	--fuentePrincipal : Sans-Serif;
+}
+
+
+.menuFlotante{
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	background-color: black;
+	width: 100%;
+	padding: 15px 0px;
+	z-index: 2;
+	
+}
+.menuFlotante ul{
+	list-style: none;
+}
+.menuFlotante ul li{
+	position: relative;
+	float:left;
+	display: inline-block;
+	margin-left: 15px;
+	
+	
+}
+.menuFlotante ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: var(--fuentePrincipal);
+}
